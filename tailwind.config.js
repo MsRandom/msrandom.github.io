@@ -16,7 +16,7 @@ module.exports = {
                 'primary': '#4B4C60',
                 'primary-faded': 'rgba(75, 76, 96, 0.65)',
                 'secondary': '#2D283E',
-                'secondary-faded': 'rgba(45, 40, 62, 0.35)',
+                'secondary-faded': 'rgba(45, 40, 62, 0.65)',
 
                 'white-primary': '#f2f2f2',
                 'white-secondary': '#D1D7E0',
