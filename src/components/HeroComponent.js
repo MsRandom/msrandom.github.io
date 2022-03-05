@@ -2,7 +2,7 @@ import DATA from "../data/SiteData";
 
 const HeroComponent = () => (
     <div className='w-full h-screen flex flex-col items-center justify-center'>
-        <div className='bg-secondary rounded-xl w-11/12 h-11/12 p-4 shadow-2xl flex flex-col justify-center items-center bg-primary-faded bg-prima'>
+        <div className='rounded-xl w-11/12 h-11/12 p-4 shadow-2xl flex flex-col justify-center items-center bg-primary-faded'>
             <img
                 className='w-36 h-36 rounded-2xl'
                 src='/assets/images/logo512.png'
