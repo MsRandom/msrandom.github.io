@@ -18,14 +18,15 @@ const ProjectsComponent = ({projects, selectProject}) => (projects.map(value =>
 const ImagePreviewComponent = ({project, closeProject}) => {
     const firstImage = testImages[0];
     const [selectedImage, setSelectedImage] = useState(firstImage);
+    //bg-purpur2 bg-blend-soft-light
 
     return (
         <div className='fixed w-screen h-screen z-10 top-0 left-0 bg-popup-faded' onClick={closeProject}>
             <div
-                className='relative w-200 h-200 rounded-md top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gray-500 bg-purpur2 bg-blend-soft-light bg-center bg-cover flex flex-col justify-center items-center'
+                className='relative w-112 h-112 sm:w-200 sm:h-200 rounded-md top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-popup-gradient flex flex-col justify-center items-center shadow bg-dark-primary'
                 onClick={event => event.stopPropagation()}
             >
-                <img src={selectedImage} className='w-168 h-168 rounded-md' />
+                <img src={selectedImage} className='w-80 h-80 sm:w-168 sm:h-168 rounded-md' />
 
                 <div className='w-full h-20 flex flex-row justify-center items-center mt-6'>
                     {testImages.map(image =>
