@@ -14,9 +14,11 @@ jobs:
 
       - name: Install Node
         uses: actions/setup-node@v1
+        with:
+          node-version: 16.x
 
       - name: Install NPM Stuff
-        run: npm ci
+        run: npm install -g npm@latest
 
       - name: Build
         run: npm run build
