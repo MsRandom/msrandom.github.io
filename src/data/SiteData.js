@@ -91,12 +91,12 @@ const DATA = {
             ]
         },
         {
-            name: 'AWCL',
+            name: 'AWLC',
             description: `
             A static-typed LLVM-compiled language inspired by Rust, C++ and Kotlin using features like ownership, 
             operator overloading, RAII, compile-time reflection and template metaprogramming.
             `,
-            logo: './assets/images/projects/awcl.png',
+            logo: './assets/images/projects/awlc.png',
             link: 'https://github.com/MsRandom',
             images: [
                 './assets/images/projects/pogboard/pogboard1.png',
