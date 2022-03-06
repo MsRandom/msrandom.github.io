@@ -5,12 +5,16 @@ const DATA = {
         {
             name: 'World of Wonder',
             description: `
-            This mod is focused on adding biomes with a more mystical and magical flair!
-            Introducing the Dandelion Fields biome. This rare biome features giant dandelions! The stems can be used as wood, 
-            and the dandelion fluff and dandelion petals can only be found here.
+            This mod is focused on adding biomes with a more mystical and magical flair; including the rare Dandelion Fields which features giant dandelions!
+
             `,
             logo: './assets/images/projects/worldofwonder.png',
-            link: 'https://www.curseforge.com/minecraft/mc-mods/world-of-wonder'
+            link: 'https://www.curseforge.com/minecraft/mc-mods/world-of-wonder',
+            images: [
+                './assets/images/projects/worldofwonder/wow1.png',
+                './assets/images/projects/worldofwonder/wow2.png',
+                './assets/images/projects/worldofwonder/wow3.png'
+            ]
         },
         {
             name: "Tempad",
@@ -19,7 +23,12 @@ const DATA = {
             from anywhere on the Sacred Timeline.
             `,
             logo: './assets/images/projects/tempad.gif',
-            link: 'https://www.curseforge.com/minecraft/mc-mods/Tempad'
+            link: 'https://www.curseforge.com/minecraft/mc-mods/Tempad',
+            images: [
+                './assets/images/projects/tempad/tempad1.png',
+                './assets/images/projects/tempad/tempad2.png',
+                './assets/images/projects/tempad/tempad3.png'
+            ]
         },
         {
             name: "Spirit",
@@ -28,7 +37,12 @@ const DATA = {
             souls to use in a soul cage to spawn duplicates of those mobs.
             `,
             logo: './assets/images/projects/spirit.png',
-            link: 'https://www.curseforge.com/minecraft/mc-mods/spirit'
+            link: 'https://www.curseforge.com/minecraft/mc-mods/spirit',
+            images: [
+                './assets/images/projects/spirit/spirit1.png',
+                './assets/images/projects/spirit/spirit2.png',
+                './assets/images/projects/spirit/spirit3.gif'
+            ]
         },
         {
             name: "Chipped",
@@ -37,7 +51,12 @@ const DATA = {
             over 2000 unique building blocks. From stained glass variations, prismarine, guilded blackstone, and much much more.
             `,
             logo: './assets/images/projects/chipped.gif',
-            link: 'https://www.curseforge.com/minecraft/mc-mods/chipped'
+            link: 'https://www.curseforge.com/minecraft/mc-mods/chipped',
+            images: [
+                './assets/images/projects/chipped/chipped1.png',
+                './assets/images/projects/chipped/chipped2.png',
+                './assets/images/projects/chipped/chipped3.png'
+            ]
         },
         {
             name: "ZAWA: Evolved",
@@ -46,7 +65,14 @@ const DATA = {
             animal conservation and science information so players - young and old - can learn while they play.
             `,
             logo: './assets/images/projects/zawa.png',
-            link: 'https://www.curseforge.com/minecraft/mc-mods/zawa-evolved'
+            link: 'https://www.curseforge.com/minecraft/mc-mods/zawa-evolved',
+            images: [
+                './assets/images/projects/zawa/zawa1.png',
+                './assets/images/projects/zawa/zawa2.png',
+                './assets/images/projects/zawa/zawa3.png',
+                './assets/images/projects/zawa/zawa4.png',
+                './assets/images/projects/zawa/zawa5.png'
+            ]
         }
     ],
     personalProjects: [
@@ -57,7 +83,12 @@ const DATA = {
             with a focus on customizability.
             `,
             logo: './assets/images/projects/witchery.png',
-            link: 'https://witchery.msrandom.net/'
+            link: 'https://witchery.msrandom.net/',
+            images: [
+                './assets/images/projects/witchery/witchery1.png',
+                './assets/images/projects/witchery/witchery2.png',
+                './assets/images/projects/witchery/witchery3.png'
+            ]
         },
         {
             name: 'AWCL',
@@ -66,7 +97,11 @@ const DATA = {
             operator overloading, RAII, compile-time reflection and template metaprogramming.
             `,
             logo: './assets/images/projects/awcl.png',
-            link: 'https://github.com/MsRandom'
+            link: 'https://github.com/MsRandom',
+            images: [
+                './assets/images/projects/pogboard/pogboard1.png',
+                './assets/images/projects/pogboard/pogboard2.png'
+            ]
         },
         {
             name: 'WillowWorks Engine',
@@ -75,7 +110,11 @@ const DATA = {
             objects and instanced + batched chunks. Used Vulkan, VulkanMemoryAllocator, glm and glfw for rendering.
             `,
             logo: './assets/images/projects/willowworks.png',
-            link: 'https://github.com/MsRandom'
+            link: 'https://github.com/MsRandom',
+            images: [
+                './assets/images/projects/pogboard/pogboard1.png',
+                './assets/images/projects/pogboard/pogboard2.png'
+            ]
         },
         {
             name: 'Pog Board',
@@ -85,7 +124,11 @@ const DATA = {
             Made for the Artists' Refuge.
             `,
             logo: './assets/images/projects/pogboard.png',
-            link: 'https://discord.gg/5e3PekvKmS'
+            link: 'https://discord.gg/5e3PekvKmS',
+            images: [
+                './assets/images/projects/pogboard/pogboard1.png',
+                './assets/images/projects/pogboard/pogboard2.png'
+            ]
         }
     ]
 };

@@ -18,6 +18,20 @@ module.exports = {
                 '168': '38rem',
                 '112': '28rem'
             },
+            maxWidth: {
+                '200': '50rem',
+                '168': '38rem',
+                '112': '28rem',
+                '80': '20rem',
+                '16': '4rem'
+            },
+            maxHeight: {
+                '200': '50rem',
+                '168': '38rem',
+                '112': '28rem',
+                '80': '20rem',
+                '16': '4rem'
+            },
             colors: {
                 'primary': '#4B4C60',
                 'primary-faded': 'rgba(75, 76, 96, 0.65)',
