@@ -8,10 +8,9 @@ const ProjectsComponent = ({projects, selectProject}) => (projects.map(value =>
     />
 ));
 
-//TODO: Use images from actual project instead of test images
 const ImagePreviewComponent = ({project, closeProject}) => {
     const firstImage = project.images[0];
-    const [selectedImage, setSelectedImage] = useState(firstImage);
+    const [selectedImage, setSelectedImage] = useState(firstImage.toString());
 
     return (
         <div className='fixed w-screen h-screen z-10 top-0 left-0 bg-popup-faded' onClick={closeProject}>
@@ -25,7 +24,7 @@ const ImagePreviewComponent = ({project, closeProject}) => {
 
                 <div className='w-full h-20 flex flex-row justify-center items-center mt-6'>
                     {project.images.map(image =>
-                        <img key={image} src={image} alt='' className='max-w-16 max-h-16 rounded-sm mx-2 outline outline-white-secondary transition-all hover:cursor-pointer hover:scale-105' onClick={() => setSelectedImage(image)} />
+                        <img key={image.toString()} src={image.toString()} alt='' className='max-w-16 max-h-16 rounded-sm mx-2 outline outline-white-secondary transition-all hover:cursor-pointer hover:scale-105' onClick={() => setSelectedImage(image)} />
                     )}
                 </div>
             </div>
