@@ -16,10 +16,10 @@ jobs:
         uses: actions/setup-node@v1
 
       - name: Install NPM Stuff
-        uses: npm ci
+        run: npm ci
 
       - name: Build
-        uses: npm run build
+        run: npm run build
 
       - name: Upload to prod
         uses: actions/upload-artifact@v2
