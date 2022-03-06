@@ -99,8 +99,8 @@ const DATA = {
             logo: './assets/images/projects/awlc.png',
             link: 'https://github.com/MsRandom',
             images: [
-                './assets/images/projects/pogboard/pogboard1.png',
-                './assets/images/projects/pogboard/pogboard2.png'
+                './assets/images/projects/awlc/awlc1.png',
+                './assets/images/projects/awlc/awlc2.png'
             ]
         },
         {
