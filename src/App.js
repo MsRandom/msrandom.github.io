@@ -13,7 +13,7 @@ export default class App extends React.Component {
     }
 
     openPreview = (project) => {
-        this.setState({openProject: project})
+        if (!project || project.images.length >= 0) this.setState({openProject: project})
     };
 
     render() {
