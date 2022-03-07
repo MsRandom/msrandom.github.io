@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
 
 const ProjectsComponent = ({projects, selectProject}) => (projects.map(value =>
     <ProjectComponent
