@@ -10,10 +10,7 @@ const ProjectsComponent = ({projects, selectProject}) => (projects.map(value =>
 
 const ImagePreviewComponent = ({project, closeProject}) => {
     const firstImage = project.images[0];
-    const firstImagePath = firstImage?.toString() ?? "";
-    const [selectedImage, setSelectedImage] = useState(firstImagePath);
-
-    useEffect(() => setSelectedImage(firstImagePath), []);
+    const [selectedImage, setSelectedImage] = useState(firstImage?.toString() ?? "");
 
     if (!firstImage) {
         return null;
