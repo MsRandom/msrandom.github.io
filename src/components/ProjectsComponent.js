@@ -10,11 +10,7 @@ const ProjectsComponent = ({projects, selectProject}) => (projects.map(value =>
 
 const ImagePreviewComponent = ({project, closeProject}) => {
     const firstImage = project.images[0];
-    const [selectedImage, setSelectedImage] = useState(firstImage?.toString() ?? "");
-
-    if (!firstImage) {
-        return null;
-    }
+    const [selectedImage, setSelectedImage] = useState(firstImage);
 
     return (
         <div className='fixed w-screen h-screen z-10 top-0 left-0 bg-popup-faded' onClick={closeProject}>

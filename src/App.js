@@ -13,7 +13,9 @@ export default class App extends React.Component {
     }
 
     openPreview = (project) => {
-        if (!project || project.images.length >= 0) this.setState({openProject: project})
+        if (!project || project.images.length >= 0) {
+            this.setState({openProject: project})
+        }
     };
 
     render() {
@@ -24,7 +26,7 @@ export default class App extends React.Component {
                 <HeroComponent />
 
                 <div className='w-full h-auto border-b-2 border-white-secondary mb-12' />
-                {openProject && <ImagePreviewComponent project={openProject} closeProject={() => this.openPreview(null)} />}
+                {openProject && openProject.images.length > 0 && <ImagePreviewComponent project={openProject} closeProject={() => this.openPreview(null)} />}
                 <h1 className='text-white-primary text-3xl font-bold underline-offset-8 underline decoration-4 mb-4'>Personal Projects</h1>
                 <div className='w-full h-auto flex flex-row flex-wrap items-center justify-center mb-14'>
                     <ProjectsComponent projects={DATA.personalProjects} selectProject={this.openPreview} />
